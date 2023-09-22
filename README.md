@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+And use of [VERCEL AI SDK](https://sdk.vercel.ai/docs/guides/providers/openai) documentation to help create this project. 
+
+Nice to have the [OPENAI KEYS](https://platform.openai.com/account/api-keys) of OPENAI to usage to test and modify the prompt. 
+
 ## Getting Started
 
 First, run the development server:
