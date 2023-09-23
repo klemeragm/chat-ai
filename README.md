@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 And use of [VERCEL AI SDK](https://sdk.vercel.ai/docs/guides/providers/openai) documentation to help create this project. 
 
-Nice to have the [OPENAI KEYS](https://platform.openai.com/account/api-keys) of OPENAI to use to test and modify the prompt. 
+Nice to have the [OPENAI KEYS](https://platform.openai.com/account/api-keys) of OPENAI (if you desire) to test and modify the prompt. 
 
 ## Getting Started
 
