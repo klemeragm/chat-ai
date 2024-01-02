@@ -18,11 +18,52 @@ pnpm dev
 bun dev
 ```
 
+##Docker 
+<p>
+<p>Build locally:</p>
+
+  ```bash
+  docker build -t chatgpt-ui .
+  docker run -e OPEN_API_KEY=xxxxxx -p 3000:3000 chatgpt-ui
+  ```  
+```bash
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/klemeragm/chat-ai:npm
+```
+
+#Ruuning Locally
+##1. Clone Repo 
+
+<code>git clone https://github.com/klemeragm/chat-ai.git</code>
+
+
+##2. Install Dependencies 
+  ```bash
+  npm i
+  ```
+##3. Clone Repo
+
+<p>Create a .env.local file in the root of the repo with your OpenAI API Key:</p>
+```bash
+  OPENAI_API_KEY=YOUR_KEY
+```
+
+<p>You can set OPENAI_API_HOST where access to the official OpenAI host is restricted or unavailable, allowing users to configure an alternative host for their specific needs.
+
+Additionally, if you have multiple OpenAI Organizations, you can set OPENAI_ORGANIZATION to specify one.
+</p>
+
+##4. Clone Repo
+<code>npm run dev</code>
+
+
+#Open the project 
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
 
 ## Learn More
 
