@@ -25,24 +25,27 @@ bun dev
   ```bash
   docker build -t chatgpt-ui .
   docker run -e OPEN_API_KEY=xxxxxx -p 3000:3000 chatgpt-ui
-  ```  
+  ```
+
 ```bash
 docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/klemeragm/chat-ai:npm
 ```
 
 #Ruuning Locally
-##1. Clone Repo 
-
-<code>git clone https://github.com/klemeragm/chat-ai.git</code>
-
+##1. Clone Repo</br>
+```bash
+git clone https://github.com/klemeragm/chat-ai.git
+```
 
 ##2. Install Dependencies 
+  
   ```bash
   npm i
   ```
-##3. Clone Repo
 
+##3. Clone Repo
 <p>Create a .env.local file in the root of the repo with your OpenAI API Key:</p>
+
 ```bash
   OPENAI_API_KEY=YOUR_KEY
 ```
@@ -53,17 +56,17 @@ Additionally, if you have multiple OpenAI Organizations, you can set OPENAI_ORGA
 </p>
 
 ##4. Clone Repo
-<code>npm run dev</code>
 
+```bash
+npm run dev
+```
 
 #Open the project 
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.</p>
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 
 ## Learn More
 
@@ -79,3 +82,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
